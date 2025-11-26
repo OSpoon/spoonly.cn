@@ -8,6 +8,9 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "banner": {
+    "content": "⭐ 如果你喜欢 [Spoonly](https://github.com/OSpoon)，别忘了给我们一个 ⭐ 在 GitHub 上！"
+  },
   "navigation": {
     "tabs": [
       {
@@ -22,57 +25,23 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "关于我",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "简介",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "about/me",
+              "about/use",
+              "about/env"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "文档",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "博客",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "支持",
-        "href": "mailto:zxin088@gmail.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "管理后台",
-      "href": "https://dashboard.mintlify.com"
-    }
   },
   "contextual": {
     "options": [
